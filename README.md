@@ -4,7 +4,7 @@ UIImage-BRPixelsAdditions
 Extension for UIImage adding some block based pixel modifications
 
 
-## Create an image by modifying pixels of other
+## Create an image by modifying RGBA pixels of other
 
 <pre>
 - (UIImage*)br_imageByModifyingRGBApixelsUsingBlock:(void(^)(NSInteger idx, unsigned char *pixelStartAddr, BOOL *stop))block
